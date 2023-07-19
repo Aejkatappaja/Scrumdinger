@@ -10,7 +10,11 @@ import SwiftUI
 struct CardView: View {
     let scrum: DailyScrum
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .leading) { Text(scrum.title)
+            .font(.headline)
+            Spacer()
+            HStack { Label("\(scrum.attendees.count)", systemImage: "person.3") }
+        }
     }
 }
 
