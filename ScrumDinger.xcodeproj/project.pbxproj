@@ -12,9 +12,9 @@
 		01420D5E2A67097B00EC308E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01420D5D2A67097B00EC308E /* DailyScrum.swift */; };
 		01420D612A671FB500EC308E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01420D602A671FB400EC308E /* CardView.swift */; };
 		01B5CCE42A73083300E4EC4F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5CCE32A73083300E4EC4F /* ScrumsView.swift */; };
+		01B5CCE62A730C2900E4EC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B5CCE52A730C2900E4EC4F /* Assets.xcassets */; };
 		01D0A43D2A66A3EE0042CD5D /* ScrumDingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D0A43C2A66A3EE0042CD5D /* ScrumDingerApp.swift */; };
 		01D0A43F2A66A3EE0042CD5D /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D0A43E2A66A3EE0042CD5D /* MeetingView.swift */; };
-		01D0A4412A66A3EE0042CD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D0A4402A66A3EE0042CD5D /* Assets.xcassets */; };
 		01D0A4442A66A3EE0042CD5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D0A4432A66A3EE0042CD5D /* Preview Assets.xcassets */; };
 		01D0A44E2A66A3EE0042CD5D /* ScrumDingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D0A44D2A66A3EE0042CD5D /* ScrumDingerTests.swift */; };
 		01D0A4582A66A3EF0042CD5D /* ScrumDingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D0A4572A66A3EF0042CD5D /* ScrumDingerUITests.swift */; };
@@ -44,10 +44,10 @@
 		01420D5D2A67097B00EC308E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		01420D602A671FB400EC308E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		01B5CCE32A73083300E4EC4F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		01B5CCE52A730C2900E4EC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/CreatingACardView/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		01D0A4392A66A3EE0042CD5D /* ScrumDinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumDinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D0A43C2A66A3EE0042CD5D /* ScrumDingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumDingerApp.swift; sourceTree = "<group>"; };
 		01D0A43E2A66A3EE0042CD5D /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		01D0A4402A66A3EE0042CD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D0A4432A66A3EE0042CD5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01D0A4492A66A3EE0042CD5D /* ScrumDingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumDingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D0A44D2A66A3EE0042CD5D /* ScrumDingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumDingerTests.swift; sourceTree = "<group>"; };
@@ -124,10 +124,10 @@
 		01D0A43B2A66A3EE0042CD5D /* ScrumDinger */ = {
 			isa = PBXGroup;
 			children = (
+				01B5CCE52A730C2900E4EC4F /* Assets.xcassets */,
 				01420D5F2A671F7400EC308E /* Views */,
 				01420D5A2A67078900EC308E /* Models */,
 				01D0A43C2A66A3EE0042CD5D /* ScrumDingerApp.swift */,
-				01D0A4402A66A3EE0042CD5D /* Assets.xcassets */,
 				01D0A4422A66A3EE0042CD5D /* Preview Content */,
 			);
 			path = ScrumDinger;
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01D0A4442A66A3EE0042CD5D /* Preview Assets.xcassets in Resources */,
-				01D0A4412A66A3EE0042CD5D /* Assets.xcassets in Resources */,
+				01B5CCE62A730C2900E4EC4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
