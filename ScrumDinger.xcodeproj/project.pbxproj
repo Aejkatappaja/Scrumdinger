@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0140F5C02A67FEB30030270E /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140F5BF2A67FEB30030270E /* TrailingIconLabelStyle.swift */; };
+		01412E402A76637D004FB719 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01412E3F2A76637D004FB719 /* DetailView.swift */; };
 		01420D5C2A6707BC00EC308E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01420D5B2A6707BC00EC308E /* Theme.swift */; };
 		01420D5E2A67097B00EC308E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01420D5D2A67097B00EC308E /* DailyScrum.swift */; };
 		01420D612A671FB500EC308E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01420D602A671FB400EC308E /* CardView.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		0140F5BF2A67FEB30030270E /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		01412E3F2A76637D004FB719 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		01420D5B2A6707BC00EC308E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		01420D5D2A67097B00EC308E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		01420D602A671FB400EC308E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				01420D602A671FB400EC308E /* CardView.swift */,
 				0140F5BF2A67FEB30030270E /* TrailingIconLabelStyle.swift */,
 				01B5CCE32A73083300E4EC4F /* ScrumsView.swift */,
+				01412E3F2A76637D004FB719 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01420D5E2A67097B00EC308E /* DailyScrum.swift in Sources */,
+				01412E402A76637D004FB719 /* DetailView.swift in Sources */,
 				0140F5C02A67FEB30030270E /* TrailingIconLabelStyle.swift in Sources */,
 				01420D5C2A6707BC00EC308E /* Theme.swift in Sources */,
 				01B5CCE42A73083300E4EC4F /* ScrumsView.swift in Sources */,
