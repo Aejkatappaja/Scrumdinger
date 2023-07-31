@@ -32,14 +32,19 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .combine)
             }
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attendee in
+                    Label(attendee.name, systemImage: "person")
+                }
+            }
         }
     }
-}
 
-struct DetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationStack {
-            DetailView(scrum: DailyScrum.sampleData[0])
+    struct DetailView_Previews: PreviewProvider {
+        static var previews: some View {
+            NavigationStack {
+                DetailView(scrum: DailyScrum.sampleData[0])
+            }
         }
     }
 }
