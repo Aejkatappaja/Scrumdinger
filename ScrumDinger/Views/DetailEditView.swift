@@ -47,7 +47,6 @@ struct DetailEditView: View {
                     .disabled(newAttendeeName.isEmpty)
                 }
             }
-            Section(header: Text("Test")) {}
         }
     }
 }
