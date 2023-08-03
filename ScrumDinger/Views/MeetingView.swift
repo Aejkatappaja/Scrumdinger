@@ -4,7 +4,6 @@
 //
 //  Created by Frank Jover on 18/07/2023.
 //
-
 import SwiftUI
 
 struct MeetingView: View {
@@ -13,26 +12,29 @@ struct MeetingView: View {
             ProgressView(value: 5, total: 15)
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Seconds Elapsed").font(.caption)
+                    Text("Seconds Elapsed")
+                        .font(.caption)
                     Label("300", systemImage: "hourglass.tophalf.fill")
                 }
                 Spacer()
                 VStack(alignment: .trailing) {
-                    Text("Seconds Remaining").font(.caption)
+                    Text("Seconds Remaining")
+                        .font(.caption)
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
             }
+            .accessibilityElement(children: .ignore)
             .accessibilityLabel("Time remaining")
             .accessibilityValue("10 minutes")
-            .accessibilityElement(children: .ignore)
-            Circle().strokeBorder(lineWidth: 24)
+            Circle()
+                .strokeBorder(lineWidth: 24)
             HStack {
                 Text("Speaker 1 of 3")
                 Spacer()
                 Button(action: {}) {
                     Image(systemName: "forward.fill")
                 }
-                .accessibilityLabel("Next Speaker")
+                .accessibilityLabel("Next speaker")
             }
         }
         .padding()
