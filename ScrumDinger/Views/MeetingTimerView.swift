@@ -11,7 +11,7 @@ struct MeetingTimerView: View {
     let speakers: [ScrumTimer.Speaker]
     let theme: Theme
 
-    private var currentSPeaker: String {
+    private var currentSpeaker: String {
         speakers.first(where: { !$0.isCompleted })?.name ?? "Someone"
     }
 
@@ -20,13 +20,15 @@ struct MeetingTimerView: View {
             .strokeBorder(lineWidth: 24)
             .overlay {
                 VStack {
-                    Text(currentSPeaker)
+                    Text(currentSpeaker)
                         .font(.title)
                     Text("is speaking")
                 }
                 .accessibilityElement(children: .combine)
                 .foregroundStyle(theme.accentColor)
             }
+            .overlay {}
+            .padding(.horizontal)
     }
 }
 
